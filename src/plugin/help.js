@@ -216,7 +216,7 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
     await Matrix.relayMessage(msg.key.remoteJid, msg.message, {
       messageId: msg.key.id
     });
-  }
+  } 
       if (selectedId == "View All Menu") {
         const str = `hey ${m.pushName} ${pushwish}
 
